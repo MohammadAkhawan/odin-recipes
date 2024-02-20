@@ -1,0 +1,33 @@
+* {
+    background-color: #f3e17b;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+#lasagna {
+    background-color: orange;
+}
+
+#pepperoni {
+    background-color: red;
+}
+
+#alfredo {
+    background-color: burlywood;
+}
