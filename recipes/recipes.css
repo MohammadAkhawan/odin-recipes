@@ -1,28 +1,51 @@
 * {
-    background-color: rgb(22, 22, 70);
-    font-weight: 800;
-    color: orange;
-    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-h1 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 42px;
+body {
+    background-color: rgb(26, 26, 88);
+    color: rgb(250, 216, 174);
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 18px auto;
+    border: 1px solid white;
+    width: 400px;
+    padding: 8px 0;
+    background-color: antiquewhite;
+    color: black;
+}
+
+li {
+    padding: 5px 0;
 }
 
 img {
-    height: 400px;
-    width: auto;
+    width: 400px;
+    height: auto;
 }
 
-h2 {
-    font-size: 28px;
+.images {
+    width: 400px;
+    margin: 18px auto;
 }
 
-p {
+.description {
+    width: 400px;
+    margin: 8px auto;
+}
+
+.description p {
     font-size: 18px;
+    padding: 0 16px;
 }
 
-.modify {
-    text-align: left;
+.description ul,
+ol {
+    padding: 0 28px;
 }

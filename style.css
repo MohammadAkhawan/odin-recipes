@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #f3e17b;
     font-family: sans-serif;
     font-weight: 800;
@@ -7,27 +10,28 @@
 
 h1 {
     text-align: center;
+    margin: 35px 0;
     font-size: 42px;
 }
 
-li {
-    list-style: none;
+p {
     text-align: center;
-    font-size: 24px;
+}
+
+.container {
+    width: 200px;
+    margin: 38px auto;
+}
+
+button {
+    display: block;
+    margin: 8px auto;
+    padding: 18px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(152, 221, 221);
 }
 
 a {
-    text-decoration-line: none;
-}
-
-#lasagna {
-    background-color: orange;
-}
-
-#pepperoni {
-    background-color: red;
-}
-
-#alfredo {
-    background-color: burlywood;
+    text-decoration: none;
 }
